@@ -1,0 +1,233 @@
+    * {
+        margin: 0;
+    }
+    
+    body {
+        height: 1600px;
+        background-color: rgb(39, 36, 36)
+    }
+    
+    .text1 {
+        font-family: Helvetica;
+        font-size: 50px;
+        color: white;
+        position: absolute;
+        bottom: 46%;
+        right: 56%;
+    }
+    
+    .icon {
+        position: absolute;
+        top: 55%;
+        right: 67.50%;
+    }
+    
+    .text2 {
+        font-family: sans-serif;
+        font-size: 25px;
+        color: white;
+        position: absolute;
+        bottom: 42%;
+        right: 38%;
+    }
+    
+    .img {
+        width: 100%;
+        height: 80%;
+        position: relative;
+        bottom: 10%;
+        left: 45%;
+        transform: translate(-45%, -45%);
+    }
+    
+    .header {
+        position: sticky;
+        top: 0;
+        z-index: 4;
+        width: 100%;
+        height: 120px;
+        background-color: black;
+        display: inline-block;
+    }
+    
+    img {
+        width: 200px;
+        height: 100px;
+        padding: 20px;
+        float: left;
+    }
+    
+    li {
+        float: right;
+        margin-left: 30px;
+        list-style-type: none;
+    }
+    
+    li a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    
+    nav {
+        padding: 20px;
+    }
+    
+    .button {
+        background-color: #691409;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 12px;
+    }
+    
+    .button1 {
+        background-color: #ffffff;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 12px;
+    }
+    
+    .burger {
+        display: none;
+    }
+    
+    .burger div {
+        width: 25px;
+        height: 3px;
+        background-color: rgb(88, 219, 236);
+        margin: 5px;
+    }
+    
+    form {
+        width: 350px;
+        margin: auto;
+        margin-top: 1px;
+    }
+    
+    input {
+        padding: 5px 20px;
+        border: 0;
+        font-size: 16px;
+    }
+    
+    .lg {
+        width: 290px;
+        height: 100px;
+    }
+    
+    .search {
+        width: 1000px;
+        height: 47px;
+        position: relative;
+        top: 100%;
+        right: 1300px;
+    }
+    
+    .submit {
+        width: 100px;
+        background-color: #691409;
+        color: #ffffff;
+    }
+    
+    .course {
+        color: white;
+        position: absolute;
+        top: 800px;
+        right: 30%;
+        font-size: 50px;
+        font-family: Helvetica;
+        text-align: center;
+        text-shadow: 4px 4px 4px white;
+    }
+    
+    .end {
+        bottom: 0;
+        width: 100%;
+        height: 15%;
+        background-color: black;
+        display: inline-block;
+    }
+    
+    #footer {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 13%;
+    }
+    
+    #one {
+        color: white;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 20%;
+    }
+    
+    #two {
+        color: white;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 10%;
+    }
+    
+    li {
+        display: inline-block;
+        font-weight: bold;
+        width: 10%;
+        max-width: 100px;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    .loginbox {
+        width: 510px;
+        height: 320px;
+        background: #164899;
+        color: #fff;
+        top: 120%;
+        left: 20%;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        box-sizing: border-box;
+        padding: 70px 30px;
+        border-radius: 20px;
+    }
+    
+    .loginbox1 {
+        width: 510px;
+        height: 320px;
+        background: #164899;
+        color: #fff;
+        top: 120%;
+        left: 50%;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        box-sizing: border-box;
+        padding: 70px 30px;
+        border-radius: 20px;
+    }
+    
+    .loginbox2 {
+        width: 510px;
+        height: 320px;
+        background: #164899;
+        color: #fff;
+        top: 120%;
+        left: 80%;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        box-sizing: border-box;
+        padding: 70px 30px;
+        border-radius: 20px;
+    }

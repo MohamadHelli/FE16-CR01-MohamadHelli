@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup</title>
+    <link rel="stylesheet" href="stylelogin.css">
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <a href="https://codefactory.wien/de/home/"> <img src="./images/CodeFactory.png" alt="" width="290">
+            </a>
+        </div>
+        <ul class="nav-links">
+            <li>
+                <button class="button" type="button"><a href="home.html">BackHome</a></button>
+            </li>
+            <li>
+                <button class="button" type="button"><a href="./Login.html" target="_blank">Login</a></button>
+            </li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+    <div class="signupbox">
+        <h1>SignUp Here</h1><br><br><br>
+
+        <form>
+            First name: <br>
+            <input type="text" name="firstname"> <br> Last name: <br>
+            <input type="text" name="lastname"> <br> Date Of Birth: <br>
+            <input type="date" date="Date Of Birth"><br> Email ID: <br>
+            <input type="email" Email="Email ID" placeholder="Example...@"><br><br> Upload your file
+            <input type="file" name="file"><br><br> Mobile Number: <br>
+            <input type="tel" Email="tel" placeholder="+43......"><br> Select gender:
+            <input type="radio" name="gender" value="male" checked> Male
+            <input type="radio" name="gender" value="female"> Female
+            <input type="radio" name="gender" value="other"> Other<br> Address: <br>
+            <input type="text" name="text"><br> City: <br>
+            <input type="text" name="city"> <br> PIN CODE: <br>
+            <input type="number" Email="number" placeholder="****"> <br>
+        </form>
+    </div>
+    <div class="signupbox1">
+        <br><br><br><br><br><br><br> State: <br>
+        <input type="text" name="text"> <br> Hobbes:
+        <input type="radio" name="Hobbes" value="singing" checked> Singing
+        <input type="radio" name="Hobbes" value="Dancing"> Dancing
+        <input type="radio" name="Hobbes" value="swimming"> Swimming<br>Other
+        <input type="text" name="Hobbes" placeholder="sleep"> <br> Select your Country: <br/>
+        <select name="your Country">
+            <option value= "Österreich">Österreich</option >
+            <option  value="SY"  selected>Syria </option>
+            <option value ="EG">Egypt </option>
+        </select>
+        <br/><br /> Tell us about you: <br/>
+        <textarea name="message" rows="10" cols="30" placeholder="Tell us about you."> 
+            </textarea >
+            <br/>
+            <br/>
+            password: <br>
+        <input type="password" password="nupasswordmber" placeholder="****"><br><br><br>
+            <input   type = "submit"   value = "signup" >
+        </div>
+</body>
+
+</html>
